@@ -33,7 +33,7 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     z-index: 1;
-    top: 70%;
+    top: 50%;
     left: 50%;
     color: #990012;
     text-align: left;
@@ -41,7 +41,7 @@ body{
 }
 
 .Image-text p {
-    font-size: 10px;
+    font-size: 15px;
 }
 footer {
     position: fixed; /* Fixed positioning */
