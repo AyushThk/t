@@ -1,0 +1,56 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
+}
+.carousel-container {
+    width: 100%; /* Adjusted width to fill the entire screen */
+    max-width: 720px; /* Limiting maximum width for larger screens */
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-image-card {
+    width: 100%; /* Ensure images fill the container */
+    position: absolute; /* Position images absolutely within the container */
+    top: 0;
+    left: 0;
+    opacity: 0; /* Start with images fully transparent */
+    transition: opacity 1s ease; /* Add transition for opacity */
+}
+
+.slide-image-card img {
+    width: 100%; /* Ensure images fill their parent container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.slide-image-card.active {
+    opacity: 1; /* When an image has the active class, make it fully opaque */
+}
+
+.Image-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    top: 70%;
+    left: 50%;
+    color: #990012;
+    text-align: left;
+    margin-top: 20px; /* Adjusted spacing for better alignment */
+}
+
+.Image-text p {
+    font-size: 20px;
+}
+footer {
+    position: fixed; /* Fixed positioning */
+    bottom: 0; /* Align the footer to the bottom of the viewport */
+    width: 100%; /* Make the footer span the entire width */
+    background-color: whitesmoke; /* Background color for the footer */
+    color: #fff; /* Text color */
+    text-align: center; /* Center-align text within the footer */
+}
+p{
+    color: #990012;
+}
