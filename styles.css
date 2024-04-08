@@ -41,13 +41,13 @@ body{
 }
 
 .Image-text p {
-    font-size: 20px;
+    font-size: 10px;
 }
 footer {
     position: fixed; /* Fixed positioning */
     bottom: 0; /* Align the footer to the bottom of the viewport */
     width: 100%; /* Make the footer span the entire width */
-    background-color: whitesmoke; /* Background color for the footer */
+    background-color: transparent; /* Background color for the footer */
     color: #fff; /* Text color */
     text-align: center; /* Center-align text within the footer */
 }
