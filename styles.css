@@ -29,20 +29,6 @@ body{
     opacity: 1; /* When an image has the active class, make it fully opaque */
 }
 
-.Image-text {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    color: #990012;
-    text-align: left;
-    margin-top: 20px; /* Adjusted spacing for better alignment */
-}
-
-.Image-text p {
-    font-size: 15px;
-}
 footer {
     position: fixed; /* Fixed positioning */
     bottom: 0; /* Align the footer to the bottom of the viewport */
